@@ -1,0 +1,24 @@
+Requirements for the pycuda library
+Note the lirary will likely not work if you dont have a NVIDIA GPU 
+
+Linux: 
+- pycuda library: pip install pycuda
+- CUDA Toolkit from Nvidia , https://developer.nvidia.com/cuda-downloads
+  Select: Linux -> x86_64 -> Linux Distribution Ubuntu (for example) -> 20.4 -> deb (local)
+- C++ compiler
+
+Windows:
+- pycuda library : pip install pycuda
+- CUDA Toolkit from Nvidia , https://developer.nvidia.com/cuda-downloads
+  Select: Windows -> x86_64 -> 11 -> exe (local) -> Executing .exe
+- Visual Studio 2019 Community Version
+- Following Environmental Variables need to be set
+
+  PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin
+	C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\libnvvp
+	C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib\x64
+	C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\extras\CUPTI\lib64
+
+  CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6
+
+  CUDA_PATH_V11_6: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6

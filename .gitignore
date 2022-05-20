@@ -1,0 +1,10 @@
+.DS_Store
+
+opencv_contrib/*
+__pycache__/
+dist/
+build/
+DBV_Group06.egg-info/
+
+.idea/
+test*.mp4
